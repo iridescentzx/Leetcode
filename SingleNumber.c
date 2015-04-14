@@ -3,7 +3,7 @@ int singleNumber(int A[], int n) {
     int sum, i;
     sum = A[0];
     for(i = 1; i < n; i++){
-        sum = A[i] ^ sum;
+        sum = A[i] ^ sum; //XOR operation
     }
     return sum;
 }
